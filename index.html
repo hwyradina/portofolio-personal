@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="container nav">
+            <a href="#" class="nav__logo">Portofolio</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link"><i class='bx bx-home'></i> Beranda</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link"><i class='bx bx-user'></i> Tentang Saya</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link"><i class='bx bx-code'></i> Keahlian</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link"><i class='bx bx-briefcase-alt'></i> Pengalaman</a></li>
+                    <li class="nav__item"><a href="#certificate" class="nav__link"><i class='bx bx-medal'></i> Sertifikat</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bx-send'></i> Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hai! Saya</span>
+                    <h1 class="home__name">Ni Made Hawya Radina Putri</h1>
+                    <h3 class="home__education">
+                        Mahasiswa <span class="typing-text"></span> <br>
+                        <span class= "University">Universitas Pendidikan Ganesha</span>
+                    </h3>
+                    <div class="home__buttons">
+                        <a href="CV Hawya Radina Putri.pdf" target="_blank">
+                        <button class="button button--ghost" id="download-cv-btn">Lihat CV</button>
+                    </a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="gambar\foto pemweb satu fix.jpg" alt="Foto Profil" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">Tentang Saya</h2>
+            <span class="section__subtitle">Setiap langkah adalah bagian dari cerita saya</span>
+            <div class="about__container container grid">
+                <img src="gambar\foto pemweb dua fix.jpg" alt="Foto Tentang Saya" class="about__img">
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-user-check about__icon'></i>
+                            <h3 class="about__title">Sekilas Tentang Saya</h3>
+                            <p class="about__description">
+                                Saya mahasiswa Program Studi Sistem Informasi di Universitas Pendidikan Ganesha, angkatan 2024. Serta saya memiliki minat pada bidang desain digital.
+                            </p>
+                        </div>
+                        <div class="info__box">
+                            <h3> Informasi Pribadi</h3>
+                            <ul class="personal-info">
+                            <li><div class="icon"><i class='bx bx-user'></i></div> <div class="info"><strong>Nama</strong><br>Ni Made Hawya Radina Putri</div></li>
+                            <li><div class="icon"><i class='bx bx-calendar'></i></div> <div class="info"><strong>Tempat Tanggal Lahir</strong><br>Singaraja, 07 Mei 2006</div></li>
+                            <li><div class="icon"><i class='bx bx-phone'></i></div> <div class="info"><strong>Telepon</strong><br>082150352639</div></li>
+                            <li><div class="icon"><i class='bx bx-envelope'></i></div> <div class="info"><strong>Email</strong><br>hawya@student.undiksha.ac.id</div></li>
+                            <li><div class="icon"><i class='bx bx-book-open'></i></div> <div class="info"><strong>Pendidikan</strong><br>Universitas Pendidikan Ganesha</div></li>
+                        </ul>
+                    </div>
+                     <a href="CV Hawya Radina Putri.pdf" download>
+                    <button class="button" id="download-resume-btn">Download Resume</button>
+                </a>
+                </div>
+            </div>
+        </section>
+
+<section class="skills section" id="skills">
+            <h2 class="section__title">Keahliah</h2>
+            <span class="section__subtitle">Kemampuan teknis dan wawasan saya</span>
+            <div class="skills__container container">
+                <div class="skills__grid">
+                    <div class="skill-box">Canva</div>
+                    <div class="skill-box">Figma</div>
+                    <div class="skill-box">Capcut</div>
+                    <div class="skill-box">HTML</div>
+                    <div class="skill-box">CSS</div>
+                    <div class="skill-box">JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Pengalaman</h2>
+            <span class="section__subtitle">Jejak pengalaman organisasi</span>
+            <div class="experience__container container">
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">PAT X INOFEST 2025</h3>
+                            <p class="timeline__company">Anggota Sie Penggalian Dana</p>
+                            <span class="timeline__date">Oktober 2025 - Sekarang</span>
+                            <p class="timeline__description">Berperan dalam mendukung pendanaan kegiatan melalui pencarian sponsor serta bekerja sama dengan tim demi kelancaran kegiatan.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Diklat Pelatihan Jurnalistik 2025</h3>
+                            <p class="timeline__company">Bendahara Umum</p>
+                            <span class="timeline__date">Agustus 2025 - Oktober 2025</span>
+                            <p class="timeline__description">Mengelola keuangan kegiatan mulai dari menyusun Rancangan Anggaran Biaya, menyimpan bukti pengeluaran, hingga menyusun dan mengumpulkan LPJ kegiatan.</p>
+                        </div>
+                    </div>        
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Pengurus UKM Pers Mahasiswa Visi Undiksha</h3>
+                            <p class="timeline__company">Bendahara Umum II</p>
+                            <span class="timeline__date">Juli 2025 - Sekarang</span>
+                            <p class="timeline__description">Mengelola dan mencatat keluar masuk dana, menyusun catatan dana dan anggaran secara rapi dan jelas, serta bekerja sama dengan bendahara umum I.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Ganesha Grand Chess Tournament</h3>
+                            <p class="timeline__company">Anggota Sie Penggalian Dana</p>
+                            <span class="timeline__date">November 2024 - Februari 2025</span>
+                            <p class="timeline__description">Berperan dalam mendukung pendanaan kegiatan melalui pencarian sponsor, membantu penggalian dana saat acara, serta bekerja sama dengan tim demi kelancaran kegiatan.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Pengurus Ekstrakurikuler Marching Band Smansa Singaraja</h3>
+                            <p class="timeline__company">Bendahara</p>
+                            <span class="timeline__date">2023 - 2024</span>
+                            <p class="timeline__description">Mengelola dan mencatat keluar masuk dana Marching Band dan menyusun catatan dana secara rapi dan jelas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificate section" id="certificate">
+            <h2 class="section__title">Sertifikat</h2>
+            <span class="section__subtitle">Dokumentasi sertifikat keahlian yang saya miliki</span>
+            <div class="certificate__container container">
+                <div class="certificate__grid">
+                    <img src="gambar\sertifikat dicoding 1.png" alt="Sertifikat 1" class="certificate__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Kontak</h2>
+            <span class="section__subtitle">Hubungi saya lewat Email atau sosial media</span>
+            <div class="contact__container container">
+
+                <div class="contact__content active" id="contact-form-tab">
+                    <div class="contact__content-grid">
+                        <div class="contact__socials">
+                            <div class="contact__box">
+                                <i class='bx bx-envelope'></i>
+                                <h3>Email</h3>
+                                <p>hawya@student.undiksha.ac.id</p>
+                            </div>
+                            <div class="contact__box">
+                                <i class='bx bxl-linkedin'></i>
+                                <h3>LinkedIn</h3>
+                                <p>www.linkedin.com/in/hawya-radina</p>
+                            </div>
+                            <div class="contact__box">
+                                <i class='bx bxl-instagram'></i>
+                                <h3>Instagram</h3>
+                                <p>@hawyaradiina</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p>&copy; 2025 Hawya Radina Putri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
